@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #a12c2c;
+  text-decoration: underline;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+header {
+  border: 1px solid;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+header nav {
+  text-align: center;
+}
+header nav ul {
+  padding: 40px 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+main {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
+}
+main .banner {
+  background-image: url(https://www.neostyle.kg/images/services/repair.jpg);
+  background-size: 100%;
+  height: 40vh;
+}
+main .banner h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 60px;
+  padding: 100px 0;
+}
+main .firstBlock {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .firstBlock img {
+  width: 550px;
+}
+main .firstBlock_text h3 {
+  font-size: 26px;
+}
+main .firstBlock_text p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+main .secondBlock h3 {
+  font-size: 26px;
+}
+main .secondBlock p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+main .secondBlock_images {
+  justify-content: space-between;
+  display: flex;
+}
+main .secondBlock_images img {
+  width: 400px;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+}
+main .secondBlock_images img:hover {
+  box-shadow: #000000 0px 0px 20px;
+  width: 410px;
+  border-radius: 25px;
+}
+main .thirdBlock h3 {
+  font-size: 26px;
+}
+main .thirdBlock_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .thirdBlock_text p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+main .thirdBlock_text img {
+  width: 650px;
+}
+main .fourthBlock h3 {
+  font-size: 26px;
+}
+main .fourthBlock p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+main .fourthBlock_images {
+  display: flex;
+  justify-content: space-between;
+}
+main .fourthBlock_images img {
+  width: 320px;
+}
+main .fivethBlock {
+  margin-bottom: 100px;
+}
+main .fivethBlock h3 {
+  font-size: 26px;
+}
+main .fivethBlock p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+main .fivethBlock_images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
+main .fivethBlock_images img {
+  width: 150px;
+}
+
+footer {
+  border: 1px solid;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 150px;
+}
+footer ul li {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1240px) {
+  header {
+    max-width: 1240px;
+    width: 100%;
+  }
+  main {
+    max-width: 1140px;
+    width: 100%;
+  }
+  main .banner {
+    background-size: 100%;
+    height: 40vh;
+  }
+  main .banner h1 {
+    font-size: 50px;
+  }
+  main .firstBlock img {
+    width: 550px;
+  }
+  main .firstBlock_text h3 {
+    font-size: 26px;
+  }
+  main .firstBlock_text p {
+    font-size: 20px;
+    padding: 40px 0;
+  }
+  main .secondBlock h3 {
+    font-size: 26px;
+  }
+  main .secondBlock p {
+    font-size: 20px;
+    padding: 40px 0;
+  }
+  main .secondBlock_images {
+    justify-content: space-between;
+    display: flex;
+  }
+  main .secondBlock_images img {
+    width: 300px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  main .secondBlock_images img:hover {
+    width: 310px;
+    border-radius: 25px;
+  }
+  main .thirdBlock h3 {
+    font-size: 26px;
+  }
+  main .thirdBlock_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .thirdBlock_text p {
+    font-size: 20px;
+    padding: 40px 0;
+  }
+  main .thirdBlock_text img {
+    width: 500px;
+  }
+  main .fourthBlock h3 {
+    font-size: 26px;
+  }
+  main .fourthBlock p {
+    font-size: 20px;
+    padding: 40px 0;
+  }
+  main .fourthBlock_images {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .fourthBlock_images img {
+    width: 280px;
+  }
+  main .fivethBlock {
+    margin-bottom: 100px;
+  }
+  main .fivethBlock h3 {
+    font-size: 26px;
+  }
+  main .fivethBlock p {
+    font-size: 20px;
+    padding: 40px 0;
+  }
+  main .fivethBlock_images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+  main .fivethBlock_images img {
+    width: 150px;
+  }
+  footer {
+    max-width: 1240px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    max-width: 1024px;
+    width: 100%;
+  }
+  header ul li a {
+    font-size: 14px;
+  }
+  main {
+    max-width: 950px;
+    width: 100%;
+  }
+  main .banner {
+    background-size: cover;
+    height: 50vh;
+  }
+  main .banner h1 {
+    font-size: 50px;
+  }
+  main .firstBlock img {
+    width: 400px;
+  }
+  main .firstBlock_text h3 {
+    font-size: 22px;
+  }
+  main .firstBlock_text p {
+    font-size: 18px;
+    padding: 40px 0;
+  }
+  main .secondBlock h3 {
+    font-size: 22px;
+  }
+  main .secondBlock p {
+    font-size: 18px;
+    padding: 40px 0;
+  }
+  main .secondBlock_images {
+    justify-content: space-between;
+    display: flex;
+  }
+  main .secondBlock_images img {
+    width: 280px;
+    height: 230px;
+    transition: all 0.3s ease-in-out;
+  }
+  main .secondBlock_images img:hover {
+    width: 290px;
+    border-radius: 25px;
+  }
+  main .thirdBlock h3 {
+    font-size: 22px;
+  }
+  main .thirdBlock_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .thirdBlock_text p {
+    font-size: 18px;
+    padding: 40px 0;
+  }
+  main .thirdBlock_text img {
+    width: 400px;
+  }
+  main .fourthBlock h3 {
+    font-size: 22px;
+  }
+  main .fourthBlock p {
+    font-size: 18px;
+    padding: 40px 0;
+  }
+  main .fourthBlock_images {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .fourthBlock_images img {
+    width: 230px;
+  }
+  main .fivethBlock h3 {
+    font-size: 22px;
+  }
+  main .fivethBlock p {
+    font-size: 18px;
+    padding: 40px 0;
+  }
+  main .fivethBlock_images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+  main .fivethBlock_images img {
+    width: 100px;
+  }
+  footer {
+    max-width: 1024px;
+    width: 100%;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    max-width: 768px;
+    width: 100%;
+  }
+  header nav ul {
+    padding: 20px 20px;
+    gap: 20px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  main {
+    max-width: 700px;
+    width: 100%;
+  }
+  main .banner {
+    background-size: cover;
+    height: 50vh;
+  }
+  main .banner h1 {
+    font-size: 50px;
+  }
+  main .firstBlock img {
+    width: 300px;
+  }
+  main .firstBlock_text h3 {
+    font-size: 22px;
+  }
+  main .firstBlock_text p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  main .secondBlock h3 {
+    font-size: 22px;
+  }
+  main .secondBlock p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  main .secondBlock_images {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  main .secondBlock_images img {
+    width: 280px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  main .secondBlock_images img:last-child {
+    display: none;
+  }
+  main .secondBlock_images img:hover {
+    width: 290px;
+    border-radius: 10px;
+  }
+  main .thirdBlock h3 {
+    font-size: 22px;
+  }
+  main .thirdBlock_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .thirdBlock_text p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  main .thirdBlock_text img {
+    width: 300px;
+  }
+  main .fourthBlock h3 {
+    font-size: 22px;
+  }
+  main .fourthBlock p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  main .fourthBlock_images {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .fourthBlock_images img {
+    width: 200px;
+  }
+  main .fourthBlock_images img:last-child {
+    display: none;
+  }
+  main .fivethBlock h3 {
+    font-size: 22px;
+  }
+  main .fivethBlock p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  main .fivethBlock_images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+  main .fivethBlock_images img {
+    width: 80px;
+  }
+  footer {
+    max-width: 768px;
+    width: 100%;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 680px) {
+  header {
+    max-width: 680px;
+    width: 100%;
+  }
+  header nav ul {
+    padding: 20px;
+    gap: 0px;
+  }
+  header nav ul li a {
+    font-size: 13px;
+  }
+  main {
+    max-width: 600px;
+    width: 100%;
+  }
+  main .banner {
+    background-size: cover;
+    height: 50vh;
+  }
+  main .banner h1 {
+    font-size: 50px;
+    padding: 50px;
+  }
+  main .firstBlock img {
+    width: 300px;
+  }
+  main .firstBlock_text h3 {
+    font-size: 20px;
+  }
+  main .firstBlock_text p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .secondBlock h3 {
+    font-size: 20px;
+  }
+  main .secondBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .secondBlock_images {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  main .secondBlock_images img {
+    width: 280px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  main .secondBlock_images img:last-child {
+    display: none;
+  }
+  main .secondBlock_images img:hover {
+    width: 290px;
+    border-radius: 10px;
+  }
+  main .thirdBlock h3 {
+    font-size: 20px;
+  }
+  main .thirdBlock_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .thirdBlock_text p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .thirdBlock_text img {
+    width: 300px;
+  }
+  main .fourthBlock h3 {
+    font-size: 20px;
+  }
+  main .fourthBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .fourthBlock_images {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .fourthBlock_images img {
+    width: 180px;
+  }
+  main .fourthBlock_images img:last-child {
+    display: none;
+  }
+  main .fivethBlock h3 {
+    font-size: 20px;
+  }
+  main .fivethBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .fivethBlock_images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+  main .fivethBlock_images img {
+    width: 80px;
+  }
+  footer {
+    max-width: 680px;
+    width: 100%;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    max-width: 425px;
+    width: 100%;
+  }
+  header nav h3 {
+    font-size: 40px;
+  }
+  header nav ul {
+    display: none;
+    padding: 20px;
+    gap: 0px;
+  }
+  header nav ul li a {
+    font-size: 13px;
+  }
+  main {
+    max-width: 300px;
+    width: 100%;
+  }
+  main .banner {
+    background-size: cover;
+    height: 40vh;
+  }
+  main .banner h1 {
+    font-size: 25px;
+    padding: 25px;
+  }
+  main .firstBlock {
+    flex-direction: column-reverse;
+  }
+  main .firstBlock img {
+    width: 300px;
+  }
+  main .firstBlock_text h3 {
+    font-size: 20px;
+  }
+  main .firstBlock_text p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .secondBlock h3 {
+    font-size: 20px;
+  }
+  main .secondBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .secondBlock_images {
+    overflow-x: scroll;
+  }
+  main .secondBlock_images img {
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+  }
+  main .secondBlock_images img:last-child {
+    display: block;
+  }
+  main .secondBlock_images img:hover {
+    width: 350px;
+    border-radius: 0;
+  }
+  main .thirdBlock h3 {
+    font-size: 20px;
+  }
+  main .thirdBlock_text {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  main .thirdBlock_text p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .thirdBlock_text img {
+    width: 300px;
+  }
+  main .fourthBlock h3 {
+    font-size: 20px;
+  }
+  main .fourthBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .fourthBlock_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main .fourthBlock_images img {
+    width: 150px;
+  }
+  main .fourthBlock_images img:last-child {
+    display: block;
+  }
+  main .fivethBlock h3 {
+    font-size: 20px;
+  }
+  main .fivethBlock p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  main .fivethBlock_images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  main .fivethBlock_images img {
+    width: 60px;
+  }
+  footer {
+    max-width: 680px;
+    width: 100%;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=index.css.map */
